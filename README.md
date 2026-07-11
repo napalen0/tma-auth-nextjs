@@ -37,7 +37,7 @@ This package does it right in ~200 lines. Battle-tested in production with real 
 ## Install
 
 ```bash
-npm install tma-auth-nextjs
+npm install napalen0/tma-auth-nextjs
 ```
 
 Only one dependency: [`jose`](https://github.com/panva/jose) (Edge Runtime compatible JWT library).
