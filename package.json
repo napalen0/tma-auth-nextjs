@@ -1,0 +1,60 @@
+{
+  "name": "tma-auth-nextjs",
+  "version": "1.0.0",
+  "description": "Telegram Mini App authentication for Next.js — initData validation, JWT sessions, channel membership checks",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "telegram",
+    "mini-app",
+    "tma",
+    "webapp",
+    "auth",
+    "authentication",
+    "initdata",
+    "jwt",
+    "nextjs",
+    "next",
+    "bot",
+    "telegram-bot"
+  ],
+  "author": "473 Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/napalen0/tma-auth-nextjs"
+  },
+  "homepage": "https://github.com/napalen0/tma-auth-nextjs#readme",
+  "bugs": {
+    "url": "https://github.com/napalen0/tma-auth-nextjs/issues"
+  },
+  "dependencies": {
+    "jose": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
