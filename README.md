@@ -6,7 +6,7 @@
 
 initData validation, JWT sessions, channel membership — production-ready, zero config.
 
-[![npm version](https://img.shields.io/npm/v/tma-auth-nextjs.svg)](https://www.npmjs.com/package/tma-auth-nextjs)
+[![GitHub](https://img.shields.io/badge/install-GitHub-181717.svg?logo=github)](https://github.com/napalen0/tma-auth-nextjs)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-ready-3178C6.svg)](tsconfig.json)
 
